@@ -6,7 +6,7 @@ import kotlin.math.min
 /**
  * Int-to-Int hash map with open addressing and linear probes.
  *
- * TODO: This class is **NOT** thread-safe.
+ * TODO: This class is thread-safe.
  */
 class IntIntHashMap {
     private val core = atomic(Core(INITIAL_CAPACITY))
